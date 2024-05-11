@@ -1,0 +1,334 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #fff;
+    margin: 0;
+  }
+  
+  ul,
+  ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  p,
+  h1,
+  h2,
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    border-bottom: 1px solid #e7e9fc;
+    align-items: center;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+  }
+  
+  .nav-logo .nav-logo-part {
+    color: #2e2f42;
+  }
+  
+  .nav-list-link {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .nav-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+   padding: 24px 0;
+    display: block;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    color: #404bbf;
+  }
+  
+  .address {
+    font-style: normal;
+    margin-left: auto;
+  }
+  
+  .addres-list-link {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .address-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    padding: 24px 0;
+  }
+  
+  .address-link:hover,
+  .address-link:focus {
+    color: #404bbf;
+  }
+  
+  .section-one {
+    background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  
+  .section-one-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    max-width: 496px;
+    margin: 0 auto 48px auto;
+  }
+  
+  .section-one-button {
+    background: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 16px 32px;
+    min-width: 169px;
+  }
+  
+  .section-one-button:hover,
+  .section-one-button:focus {
+    background: #404bbf;
+  }
+  
+  .section-one-button:active {
+    background: #404bbf;
+  }
+  
+  .visually-hidden {
+     position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+  .section-two {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .section-two-list {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .section-two-list-wrap {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+  
+  .section-two-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+  
+  .section-two-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    max-width: 264px;
+  }
+  
+  .section-three {
+    background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .section-three-title-one {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+  
+  .section-three-listen {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .section-three-listen-img {
+    background: #ffffff;
+    border-radius: 0 0 4px 4px; 
+  }
+  
+  .section-three-paragraph-title {
+     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+      0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    padding: 32px 0;
+  }
+  
+  .section-three-title-two {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    display: block;
+    text-align: center;
+  }
+  
+  .section-three-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    display: block;
+    text-align: center;
+  }
+  
+  .section-four {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .section-four-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+  }
+  
+  .section-four-img {
+    background: #f4f4fd;
+  }
+  
+  .section-four-listen {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+  }
+  
+  .section-four-listen-wrap {
+    width: calc((100% - 2 * 24px) / 3);`
+  }
+  
+  .section-four-paragraph-title {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+    padding: 32px 16px;
+  }
+  
+  .section-four-title-two {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
+  
+  .section-four-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  
+  .section-footer {
+    background: #2e2f42;
+    padding: 100px 0
+  }
+  
+  .nav-logo-two {
+    display: inline-block; 
+    margin-bottom: 16px;
+      font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+  }
+  
+  .nav-logo-part-two {
+    color: #f4f4fd;
+  }
+  
+  .footer-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    max-width: 264px;
+  }
